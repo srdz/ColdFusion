@@ -166,7 +166,6 @@
 					var date_livraison = document.getElementById('date_livraison').value;
 					
 					if ($('.chkNumber:checked').length) {
-						
 						$('.chkNumber:checked').each(function () {
 							chkId += $(this).val() + ",";
 						});
